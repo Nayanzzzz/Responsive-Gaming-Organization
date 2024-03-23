@@ -1,0 +1,202 @@
+*{ 
+    margin: 0;
+    padding: 0;
+
+
+}
+/* navbar property */
+#navbar::before{
+    content: " ";
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: .9;
+}
+#navbar{
+    display: flex;
+    position: relative;
+    font-family: "Bree Serif", serif;
+    width: 105%;
+}
+
+/* logo and image  */
+#logoo {
+
+    margin: 16px 38px;
+    height: 85px;
+}
+#logo img{
+     
+     margin: 8px 8px;
+    
+}
+
+
+
+/* list iteam style */
+ #navbar ul{
+    display: flex;
+    margin: 30px;
+}
+
+#navbar ul li{
+    
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 12px;
+    border-radius: 20px;
+    color: white;
+  
+}
+#navbar ul li a:hover{
+   
+    color: black;
+    background-color: white;
+}
+
+
+/* Home section */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    align-items: center;
+    justify-content:center;
+    height: 350px;
+    font-family: "Bree Serif", serif;
+}
+/* #home::before{
+
+    content: " ";
+    background-image: url(https://wallpapercave.com/wp/wp7314463.jpg);
+    height: 75%;
+    width: 103%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.85;
+    top: 0px;
+} */
+
+#home h1{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 3.6rem;
+    font-family: "Bree Serif", serif;
+
+}
+.h-primary{
+    font-size: 2.3rem;
+    padding: 30px;
+    font-family: "Bree Serif", serif;
+
+}
+
+.h-secondary{
+    font-size: 1.4rem;
+    padding: 15px;
+    text-align: center;
+    font-family: "Bree Serif", serif;
+
+}
+
+.center {
+    text-align: center;
+}
+/* .btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: black;
+    
+    font-size: 1.5rem;
+} */
+.btn {
+    padding: 5px;
+    margin: 40px;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#role{
+    margin: 30px;
+    display: flex;
+}
+#role .box{
+    border: 2px solid rgb(0, 0, 0);
+    margin: 15px 31px;
+    padding: 13px;
+    border-radius: 27px;
+    background-color: #c4b9b9;
+
+}
+#role .box img{
+height: 240px;
+margin: auto;
+display: block;
+    
+}
+#role .box p{
+    font-family: "Bree Serif", serif;
+
+}
+
+#client-section{
+    position: relative;
+    height: 209px;
+
+}
+#client-section::before{
+    position: absolute;
+    height: 105%;
+    width: 105%;
+    content:" ";
+    background-image: url(../img/bg.jpg);
+    z-index: -1;
+    opacity: 0.6;
+
+
+
+}
+
+#clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -27px;
+
+}
+#clients img{
+    height: 100px;
+
+}
+.client-iteam{
+    padding: 25px;
+}
+
+#contact{
+    
+    content: " ";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    
+   background-color: black;
+    
+}
+
+.client-iteam{
+    position: relative;
+    text-align: center;
+    
+}
